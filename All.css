@@ -1,0 +1,2137 @@
+::-webkit-scrollbar{
+    background-color: #121127;
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 999px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+
+/* H E A D E R */
+
+
+header{
+    width: 83%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+header .container{
+    width: 49.2%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header .container .Badge{
+    width: 139px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF4E6;
+    border-radius: 100px;
+    cursor: pointer;
+}
+header .container .Badge .Txt-1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #F25722;
+}
+header .container .Txt-2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 140%;
+    color: #121127;
+}
+header .container .Paragraph-1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 180%;
+    color: rgba(18, 17, 39, 0.72);
+}
+header .container .Paragraph-2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    color: rgba(18, 17, 39, 0.48);
+}
+header .container .EmailBtn{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .EmailBtn input {
+    padding: 16px;
+    outline: 0;
+    outline: none;
+    width: 360px;
+    height: 52px;
+    border: 1px solid rgba(18, 17, 39, 0.12);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+header .container .EmailBtn button{
+    background: #444BD3;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 180px;
+    height: 52px;
+}
+nav{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+nav .navbar-header{
+    width: 83%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .navbar-header .LogoDlex{
+    cursor: pointer;
+}
+nav .navbar-header .fa-bars{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    color: #121127;
+}
+
+
+/* F E A T U R E S */ 
+
+
+.Features{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121127;
+}
+.Features-Container{
+    width: 83%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Features .Features-Container .FeaturesHeader{
+    width: 48.9%;
+    height: 516px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.Features .Features-Container .FeaturesHeader .FeaturesTitle{
+    width: 74%;
+    height: 284px;
+}
+.Features .Features-Container .FeaturesHeader .FeaturesTitle .Txt-3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+    width: 100%;
+    height: 168px;
+}
+.Features .Features-Container .FeaturesHeader .FeaturesTitle .Paragraph-3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+
+    width: 100%;
+    height: 96px;
+}
+.Features .Features-Container .FeaturesHeader .FeaturesRectangle{
+    width: 100%;
+    height: 1px;
+    background: #FFFFFF29;
+}
+.Features .Features-Container .FeaturesHeader .FeaturesParagraph{
+    width: 74%;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Features .Features-Container .FeaturesHeader .FeaturesParagraph .Paragraph-4{
+    width: 87%;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+.Features .Features-Container .FeaturesHeader .FeaturesParagraph .Paragraph-5{
+    width: 66.1%;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+.Features .Features-Container .FeaturesHeader .FeaturesParagraph .Paragraph-6{
+    width: 75%;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+.Features .Features-Container .FeaturesHeader .FeaturesParagraph .Paragraph-4 .fa-check{
+    width: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #34D399;
+}
+.Features .Features-Container .FeaturesHeader .FeaturesParagraph .Paragraph-5 .fa-check{
+    width: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #34D399;
+}
+.Features .Features-Container .FeaturesHeader .FeaturesParagraph .Paragraph-6 .fa-check{
+    width: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #34D399;
+}
+.Features .Features-Container .FeaturesImg{
+    width: 48.9%;
+    height: 551px;
+    position: relative;
+}
+.Features .Features-Container .FeaturesImg .analysis{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+/* C T A */
+
+
+.CTA{
+    position: relative;
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+}
+.CTA .CTA-All{
+    width: 83%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.CTA .CTA-All .CTATitle{
+    width: 37.5%;
+    height: 94px;
+}
+.CTA .CTA-All .CTATitle .Txt-4{
+    width: 100%;
+    height: 45px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 140%;
+    color: #121127;
+}
+.CTA .CTA-All .CTATitle .Txt-5{
+    width: 100%;
+    height: 45px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 140%;
+    color: #444BD3;
+}
+.CTA .CTA-All .CTABtn{
+    width: 30%;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.CTA .CTA-All .CTABtn .Btn-4{
+    width: 56%;
+    height: 52px;
+    background: #444BD3;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.CTA .CTA-All .CTABtn .Btn-5{
+    width: 42%;
+    height: 52px;
+    background: #F2F3FF;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444BD3;
+}
+
+
+/* P R I N C I N G */
+
+
+.Pricing{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121127;
+}
+.Pricing .Pricing_Main{
+    width: 83%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* B O X   T I T L E */
+
+.Pricing .Pricing_Main .Pricing_BoxTitle{
+    width: 100%;
+    height: 112px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Pricing .Pricing_Main .Pricing_BoxTitle .BoxTitle_H1{
+    width: 40%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 140%;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+.Pricing .Pricing_Main .Pricing_BoxTitle .BoxTitle_H1 strong{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 140%;
+    color: #6068DB;
+    overflow: hidden;
+}
+.Pricing .Pricing_Main .Pricing_BoxTitle .BoxTitle_ParagraphI{
+    width: 60%;
+    height: 64px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+    overflow: hidden;
+}
+
+/* B O X   S T A R T E R */
+
+.Pricing .Pricing_Main .Pricing_BoxStarter{
+    width: 100%;
+    height: 99px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Pricing .Pricing_Main .Pricing_BoxStarter .BoxStarter_H5{
+    width: 23%;
+    height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.Pricing .Pricing_Main .Pricing_BoxStarter .BoxStarter_ThreeOptions{
+    width: 24%;
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Pricing .Pricing_Main .Pricing_BoxStarter .BoxStarter_ThreeOptions .ThreeOptions_BoxH6{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+.Pricing .Pricing_Main .Pricing_BoxStarter .BoxStarter_ThreeOptions .ThreeOptions_BoxH6 .fa-check{
+    font-size: 11px;
+    width: 16.67px;
+    height: 16.67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background-color: #67E4EF;
+    color: #6068DB;
+}
+.Pricing .Pricing_Main .Pricing_BoxStarter .BoxStarter_ThreeOptions .ThreeOptions_BoxH6 .ThreeOptions_H6{
+    width: 90%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+.Pricing .Pricing_Main .Pricing_BoxStarter .BoxStarter_H1{
+    width: 23%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.Pricing .Pricing_Main .Pricing_BoxStarter .BoxStarter_BTN{
+    width: 24%;
+    height: 56px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Pricing .Pricing_Main .Pricing_BoxStarter .BoxStarter_BTN .Btn_Starter{
+    width: 156px;
+    height: 52px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* B O X   D L E X P L U S */
+
+.Pricing .Pricing_Main .Pricing_BoxDlexPlus{
+    width: 100%;
+    height: 99px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPlus .BoxDlexPlus_H5{
+    width: 23%;
+    height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPlus .BoxDlexPlus_ThreeOptions{
+    width: 24%;
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPlus .BoxDlexPlus_ThreeOptions .ThreeOptions_BoxH6{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPlus .BoxDlexPlus_ThreeOptions .ThreeOptions_BoxH6 .fa-check{
+    font-size: 10px;
+    width: 16.67px;
+    height: 16.67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background-color: #67E4EF;
+    color: #6068DB;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPlus .BoxDlexPlus_ThreeOptions .ThreeOptions_BoxH6 .ThreeOptions_H6{
+    width: 90%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPlus .BoxDlexPlus_H1{
+    width: 23%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPlus .BoxDlexPlus_BTN{
+    width: 24%;
+    height: 56px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPlus .BoxDlexPlus_BTN .Btn_DlexPlus{
+    width: 156px;
+    height: 52px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* B O X   D L E X P R O */
+
+.Pricing .Pricing_Main .Pricing_BoxDlexPro{
+    width: 100%;
+    height: 99px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPro .BoxDlexPro_H5{
+    width: 23%;
+    height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPro .BoxDlexPro_ThreeOptions{
+    width: 24%;
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPro .BoxDlexPro_ThreeOptions .ThreeOptions_BoxH6{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPro .BoxDlexPro_ThreeOptions .ThreeOptions_BoxH6 .fa-check{
+    font-size: 11px;
+    width: 16.67px;
+    height: 16.67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background-color: #67E4EF;
+    color: #6068DB;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPro .BoxDlexPro_ThreeOptions .ThreeOptions_BoxH6 .ThreeOptions_H6{
+    width: 90%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPro .BoxDlexPro_H1{
+    width: 23%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPro .BoxDlexPro_BTN{
+    width: 24%;
+    height: 56px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Pricing .Pricing_Main .Pricing_BoxDlexPro .BoxDlexPro_BTN .Btn_DlexPro{
+    width: 156px;
+    height: 52px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.BarI, .BarII, .BarIII{
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+
+/* F A Q */
+
+
+.FAQ{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #121127;
+}
+.FAQ .FAQ-ALL{
+    width: 83%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-1{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+/* BOX 1 */
+
+.FAQ .FAQ-ALL .FAQ-BOX-2{
+    width: 49%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 12px;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-1 .FAQ-BOX-2 .FAQ-BOX-2-TITLE{
+    width: 80%;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-1 .FAQ-BOX-2 .FAQ-BOX-2-TITLE .FAQ-TXT1{
+    width: 100%;
+    height: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-1 .FAQ-BOX-2 .FAQ-BOX-2-TITLE .FAQ-PARAGRAPH1{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+}
+.FAQ .FAQ-ALL .FAQ-BOX-1 .FAQ-BOX-2 .FAQ-BOX-2-TITLE .FAQ-TXT2{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 180%;
+    color: #599BF9;
+    cursor: pointer;
+}
+
+/* BOX 2 */
+
+.FAQ .FAQ-ALL .FAQ-BOX-1 .FAQ-BOX-3{
+    width: 49%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 12px;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-1 .FAQ-BOX-3 .FAQ-BOX-3-TITLE{
+    width: 80%;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-1 .FAQ-BOX-3 .FAQ-BOX-3-TITLE .FAQ-TXT1{
+    width: 100%;
+    height: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-1 .FAQ-BOX-3 .FAQ-BOX-3-TITLE .FAQ-PARAGRAPH1{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+}
+.FAQ .FAQ-ALL .FAQ-BOX-1 .FAQ-BOX-3 .FAQ-BOX-3-TITLE .FAQ-TXT2{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 180%;
+    color: #599BF9;
+    cursor: pointer;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-4{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-4 .FAQ-BOX-4-TITLE{
+    width: 80%;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* BOX 3 */
+
+.FAQ .FAQ-ALL .FAQ-BOX-5{
+    width: 49%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 12px;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-5 .FAQ-BOX-4-TITLE .FAQ-TXT1{
+    width: 100%;
+    height: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-5 .FAQ-BOX-4-TITLE .FAQ-PARAGRAPH1{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+}
+.FAQ .FAQ-ALL .FAQ-BOX-5 .FAQ-BOX-4-TITLE .FAQ-TXT2{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 180%;
+    color: #599BF9;
+    cursor: pointer;
+}
+
+/* BOX 4 */
+
+.FAQ .FAQ-ALL .FAQ-BOX-6{
+    width: 49%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 12px;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-6 .FAQ-BOX-5-TITLE{
+    width: 80%;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-6 .FAQ-BOX-5-TITLE .FAQ-TXT1 {
+    width: 100%;
+    height: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.FAQ .FAQ-ALL .FAQ-BOX-6 .FAQ-BOX-5-TITLE .FAQ-PARAGRAPH1 {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+}
+.FAQ .FAQ-ALL .FAQ-BOX-6 .FAQ-BOX-5-TITLE .FAQ-PARAGRAPH1{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+}
+.FAQ .FAQ-ALL .FAQ-BOX-6 .FAQ-BOX-5-TITLE .FAQ-TXT2{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 180%;
+    color: #599BF9;
+    cursor: pointer;
+}
+
+
+/* N E W S L E T T E R */
+
+
+.Newsletter{
+    width: 100%;
+    height: 307px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.Newsletter .Newsletter-Container{
+    width: 83%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Newsletter .Newsletter-Container .Container-Txt{
+    width: 57.5%;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Newsletter .Newsletter-Container .Container-Txt .Newsletter-Container-Title{
+    width: 100%;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 140%;
+    color: #121127;
+}
+.Newsletter .Newsletter-Container .Container-Txt .Newsletter-Container-Paragraph{
+    width: 100%;
+    height: 58px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: rgba(18, 17, 39, 0.56);
+}
+.Newsletter .Newsletter-Container .Container-InputBtn{
+    width: 37.5%;
+    height: 115px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.Newsletter .Newsletter-Container .Container-InputBtn .InputBtn{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Newsletter .Newsletter-Container .Container-InputBtn .InputBtn input {
+    padding: 16px;
+    outline: 0;
+    width: 270px;
+    height: 52px;
+    outline: none;
+    border: 1px solid rgba(18, 17, 39, 0.12);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.Newsletter .Newsletter-Container .Container-InputBtn .InputBtn button{
+    width: 142px;
+    height: 52px;
+    background: #444BD3;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.Newsletter .Newsletter-Container .Container-InputBtn .Newsletter-InputBtn-Paragraph{
+    width: 100%;
+    height: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    color: rgba(18, 17, 39, 0.48);
+}
+.Newsletter .Newsletter-Container .Container-InputBtn .InputBtn-Paragraph span{
+    color: #4E8AF4;
+}
+
+
+/* B L O G */
+
+
+.Blog{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #121127;
+    position: relative;
+}
+.Blog .Blog-Container{
+    width: 83%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Blog .Blog-Container .Container-Title{
+    width: 552px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.Blog .Blog-Container .Container-Title .SubTitle-Container{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 170%;
+    text-align: center;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #6068DB;
+}
+.Blog .Blog-Container .Container-Title .Title-Container{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Blog .Blog-Container .Container-Title .Paragraph-Container{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.56);
+}
+.Blog .Blog-Container .container-Main{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.Blog .Blog-Container .container-Main .Article{
+    width: 360px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+}
+.Blog .Blog-Container .container-Main .Article .Article-Main{
+    width: 90%;
+    height: 257px;
+    display: flex;
+    flex-direction: column;
+}
+.Blog .Blog-Container .container-Main .Article .Article-Img{
+    width: 100%;
+    height: 201px;
+    background: #A78BFA;
+    border-radius: 12px 12px 0px 0px;
+    background-image: url(img/ImgArticle.svg);
+}
+.Blog .Blog-Container .container-Main .Article .SubTitle-Article{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 170%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #A78BFA;
+    margin-top: 10px;
+}
+.Blog .Blog-Container .container-Main .Article .Title-Article{
+    width: 100%;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+.Blog .Blog-Container .container-Main .Article .Paragraph-Article{
+    width: 100%;
+    height: 87px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+    margin-top: 10px;
+}
+.Blog .Blog-Container .container-Main .Article .Article-Profile{
+    width: 90%;
+    height: 87px;
+    display: flex;
+    align-items: center;
+}
+.Blog .Blog-Container .container-Main .Article .Article-Profile img{
+    width: 70%;
+    height: 70%;
+}
+.Blog .Blog-Container .container-Main .Video{
+    width: 360px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+}
+.Blog .Blog-Container .container-Main .Video .video-Main{
+    width: 90%;
+    height: 257px;
+    display: flex;
+    flex-direction: column;
+}
+.Blog .Blog-Container .container-Main .Video .video-Img{
+    width: 100%;
+    height: 201px;
+    background: #FFAC3D;
+    border-radius: 12px 12px 0px 0px;
+    background-image: url(img/ImgVideo.svg);
+    background-repeat: no-repeat;
+}
+.Blog .Blog-Container .container-Main .Video .SubTitle-video{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 170%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #FFAC3D;
+    margin-top: 10px;
+}
+.Blog .Blog-Container .container-Main .Video .Title-video{
+    width: 100%;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+.Blog .Blog-Container .container-Main .Video .Paragraph-video{
+    width: 100%;
+    height: 87px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+    margin-top: 10px;
+}
+.Blog .Blog-Container .container-Main .Video .video-Profile{
+    width: 90%;
+    height: 87px;
+    display: flex;
+    align-items: center;
+}
+.Blog .Blog-Container .container-Main .Video .video-Profile img{
+    width: 70%;
+    height: 70%;
+}
+.Blog .Blog-Container .container-Main .CaseStudy{
+    width: 360px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+}
+.Blog .Blog-Container .container-Main .CaseStudy .CaseStudy-Main{
+    width: 90%;
+    height: 257px;
+    display: flex;
+    flex-direction: column;
+}
+.Blog .Blog-Container .container-Main .CaseStudy .CaseStudy-Img{
+    width: 100%;
+    height: 201px;
+    background: #34D399;
+    border-radius: 12px 12px 0px 0px;
+    background-image: url(img/ImgCaseStudy.svg);
+    background-repeat: no-repeat;
+}
+.Blog .Blog-Container .container-Main .CaseStudy .SubTitle-CaseStudy{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 170%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #34D399;
+    margin-top: 10px;
+}
+.Blog .Blog-Container .container-Main .CaseStudy .Title-CaseStudy{
+    width: 100%;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+.Blog .Blog-Container .container-Main .CaseStudy .Paragraph-CaseStudy{
+    width: 100%;
+    height: 87px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+    margin-top: 10px;
+}
+.Blog .Blog-Container .container-Main .CaseStudy .CaseStudy-Profile{
+    width: 90%;
+    height: 87px;
+    display: flex;
+    align-items: center;
+}
+.Blog .Blog-Container .container-Main .CaseStudy .CaseStudy-Profile img{
+    width: 70%;
+    height: 70%;
+}
+
+
+
+/* C O N T A C T S */
+
+
+
+.Contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background-color: #fff;
+}
+.Contact-Img{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(img/ImgForm.svg);
+    background-repeat: no-repeat;
+}
+.Contact-Img .Contact-BoxTitle{
+    width: 70%;
+    height: 258px;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 96px;
+}
+.Contact-Img .Contact-Title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.Contact-Img .Contact-Paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+}
+.Contact-Img .Contact-Title2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: #FFFFFF;
+
+    width: 160px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.Contact-Img .Contact-Title3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: #FFFFFF;
+
+    width: 120px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.Contact-Img .Contact-BoxTitle{
+    width: 70%;
+    height: 258px;
+    position: absolute;
+    margin-bottom: 96px;
+}
+.Contact .Frame{
+    position: absolute;
+    width: 455px;
+    height: 520px;
+    left: 750px;
+    top: 100px;
+}
+input[type=text], input[type="email"], input[type="tel"], select {
+  width: 312px;
+  height: 78px;
+    height: 52px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(18, 17, 39, 0.12);
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #fff;
+  }
+textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(18, 17, 39, 0.12);
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    height: 153px;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    resize: none;
+    overflow: auto;
+    background-color: #fff;
+  }
+  
+input[type=submit] {
+    background-color: #444BD3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    width: 122px;
+    height: 52px;
+    border-radius: 8px;
+  }
+.Contact .FormYN{
+    width: 95px;
+    height: 22px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 180%;
+    color: #121127;
+  }
+.Contact .FormPN{
+    width: 95px;
+    height: 22px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 180%;
+    color: #121127;
+  }
+.Contact .FormEA{
+    width: 95px;
+    height: 22px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 180%;
+    color: #121127;
+  }
+.Contact .FormS{
+    width: 95px;
+    height: 22px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 180%;
+    color: #121127;
+  }
+.Contact .FormM{
+    width: 95px;
+    height: 22px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 180%;
+    color: #121127;
+  }
+.Contact-Main{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.Contact-Main .Contact-Conteiner{
+    width: 70.2%;
+    height: 510px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+.Contact-Main .Contact-Conteiner .Contact-Container-Title{
+    width: 238px;
+    height: 34px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+.Contact-Form{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+.Form1{
+    width: 312px;
+    height: 180px;
+  }
+.Form2{
+    width: 312px;
+    height: 180px;
+  }
+.FormBtn{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+
+
+/* T E A M */
+
+
+
+.Team{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #121127;
+}
+.Team .Team-Container{
+    width: 83%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.Team .Container-Title{
+    width: 552px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+.Team .Team-Container-Profile{
+    width: 100%;
+    height: 461px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Team .Container-Title h3{
+    width: 77px;
+    height: 24px;
+    left: 237.5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 170%;
+    text-align: center;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #6068DB;
+}
+.Team .Container-Title h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+}
+.Team .Container-PersonOne{
+    width: 360px;
+    height: 461px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+    border-radius: 12px;
+}
+.Team .Container-PersonOne .Container-PersonInfos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    width: 100%;
+    height: 109px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 0px 0px 12px 12px;
+}
+.Team .Container-PersonOne .Container-PersonInfos .Title-PersonOne{
+    width: 143px;
+    height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    color: #fff;
+    padding: 10px;
+}
+.Team .Container-PersonOne .Container-PersonInfos .Paragraph-PersonOne{
+    width: 135px;
+    height: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.56);
+    padding: 10px;
+}
+.Team .Container-PersonTwo{
+    width: 360px;
+    height: 461px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+    border-radius: 12px;
+}
+.Team .Container-PersonTwo .Container-PersonInfos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 109px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 0px 0px 12px 12px;
+}
+.Team .Container-PersonTwo .Container-PersonInfos .Title-PersonTwo{
+    width: 143px;
+    height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    color: #fff;
+    padding: 10px;
+}
+.Team .Container-PersonTwo .Container-PersonInfos .Paragraph-PersonTwo{
+    width: 135px;
+    height: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.56);
+    padding: 10px;
+}
+.Team .Container-PersonThree{
+    width: 360px;
+    height: 461px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+    border-radius: 12px;
+}
+.Team .Container-PersonThree .Container-PersonInfos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 109px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 0px 0px 12px 12px;
+}
+.Team .Container-PersonThree .Container-PersonInfos .Title-PersonThree{
+    width: 143px;
+    height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    color: #fff;
+    padding: 10px;
+}
+.Team .Container-PersonThree .Container-PersonInfos .Paragraph-PersonThree{
+    width: 135px;
+    height: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.56);
+    padding: 10px;
+}
+
+
+
+/* S T A T S */
+
+
+
+.Stats{
+    width: 100%;
+    height: 536px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.Stats .Stats-Container{
+    width: 83%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3638BC;
+    border-radius: 20px;
+}
+.Stats .Stats-Container .StatsTitle{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Stats .Stats-Container .StatsBox{
+    width: 90%;
+    height: 144px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Stats .Stats-Container .StatsBox .Stats100{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.Stats .Stats-Container .StatsBox .Stats100 .Stats100_Title{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.Stats .Stats-Container .StatsBox .Stats100 .Stats100_Paragraph{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+}
+.Stats .Stats-Container .StatsBox .Stats24_7{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.Stats .Stats-Container .StatsBox .Stats24_7 .Stats24_7_Title{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.Stats .Stats-Container .StatsBox .Stats24_7 .Stats24_7_Paragraph{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+}
+.Stats .Stats-Container .StatsBox .Stats250K{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.Stats .Stats-Container .StatsBox .Stats250K .Stats250K_Title{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.Stats .Stats-Container .StatsBox .Stats250K .Stats250K_Paragraph{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+}
+.StatsBorder{
+    width: 48px;
+    height: 4px;
+    background: #F9A8D4;
+}
+
+
+
+/* L O G O C L O U D S */
+
+
+
+.LogoClouds{
+    width: 100%;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121127;
+    overflow: hidden;
+}
+.LogoClouds_Main{
+    width: 83%;
+    height: 328px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.LogoClouds_Main .LogoClouds_Txt{
+    width:  48%;
+    height: 328px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.LogoClouds_Main .LogoClouds_Txt .LogoClouds_Title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.LogoClouds_Main .LogoClouds_Txt .LogoClouds_Paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+}
+.LogoClouds_Main .LogoClouds_Txt .LogoClouds_Btn{
+    width: 353px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.LogoClouds_Main .LogoClouds_Txt .LogoClouds_Btn .Btn_One{
+    width: 191px;
+    height: 52px;
+    background: #6068DB;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.LogoClouds_Main .LogoClouds_Txt .LogoClouds_Btn .Btn_Two{
+    width: 154px;
+    height: 52px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.LogoClouds_Main .LogoClouds_Logo{
+    width:  48%;
+    height: 328px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.LogoClouds .LogoClouds_Main .LogoClouds_Logo .Box_LogoClouds_Logo {
+    width: 100%;
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto;
+    overflow: hidden;
+  }
+.LogoClouds .LogoClouds_Main .LogoClouds_Logo .Box_LogoClouds_Logo .Box_ImgDocker {
+    background: rgba(255, 255, 255, 0.04);
+    border: 5px solid #121127;
+    width: 272px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+  }
+.LogoClouds .LogoClouds_Main .LogoClouds_Logo .Box_LogoClouds_Logo .Box_ImgVerce {
+    background: rgba(255, 255, 255, 0.04);
+    border: 5px solid #121127;
+    width: 272px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+  }
+.LogoClouds .LogoClouds_Main .LogoClouds_Logo .Box_LogoClouds_Logo .Box_ImgMedium {
+    background: rgba(255, 255, 255, 0.04);
+    border: 5px solid #121127;
+    width: 272px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+  }
+.LogoClouds .LogoClouds_Main .LogoClouds_Logo .Box_LogoClouds_Logo .Box_ImgYoutube {
+    background: rgba(255, 255, 255, 0.04);
+    border: 5px solid #121127;
+    width: 272px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+  }
+.LogoClouds .LogoClouds_Main .LogoClouds_Logo .Box_LogoClouds_Logo .Box_ImgGoogle {
+    background: rgba(255, 255, 255, 0.04);
+    border: 5px solid #121127;
+    width: 272px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+  }
+.LogoClouds .LogoClouds_Main .LogoClouds_Logo .Box_LogoClouds_Logo .Box_ImgNetFlix {
+    background: rgba(255, 255, 255, 0.04);
+    border: 5px solid #121127;
+    width: 272px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  
+
+/* F O O T E R */
+
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    overflow: hidden;
+}
+footer .Footer_Container{
+    width: 83%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .Footer_Container .Footer_Paragraph{
+    width: 240px;
+    height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: rgba(18, 17, 39, 0.56);
+}
+footer .Footer_Container .Icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 176px;
+    height: 20px;
+}
+footer .Footer_Container .Icons .fa-facebook, .fa-instagram, .fa-twitter, .fa-github{
+    width: 20px;
+    height: 20px;
+    color: rgba(18, 17, 39, 0.56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
